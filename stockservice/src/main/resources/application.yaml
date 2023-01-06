@@ -1,0 +1,13 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: stock-service      #应用名称
+#配置nacos
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848 #本机地址
+      discovery:
+        username: nacos
+        password:  nacos
+        namespace: public
